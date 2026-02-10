@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Design Showcase</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f0f0f;
+      color: white;
+    }
+
+    header {
+      background: #1a1a1a;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: #aaa;
+      margin-bottom: 40px;
+    }
+
+    .design-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .design-card {
+      background: #1a1a1a;
+      padding: 30px;
+      border-radius: 14px;
+      text-align: center;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+
+    .design-card:hover {
+      transform: translateY(-6px) scale(1.05);
+      box-shadow: 0 10px 25px rgba(255,165,0,0.35);
+    }
+
+    .design-card i {
+      font-size: 36px;
+      color: orange;
+      margin-bottom: 15px;
+    }
+
+    .design-card p {
+      color: #ccc;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #1a1a1a;
+      margin-top: 60px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h2>MyApp</h2>
+    <nav>
+      <a href="website.html">Home</a>
+      <a href="About.html">About</a>
+      <a href="service.html">Services</a>
+      <a href="design.html">Design</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Design Section -->
+  <div class="container">
+    <h1>Design Showcase</h1>
+    <p class="subtitle">
+      Modern UI components with hover effects and clean layouts
+    </p>
+
+    <div class="design-grid">
+
+      <div class="design-card">
+        <i class="fa-solid fa-layer-group"></i>
+        <h3>Card Layout</h3>
+        <p>
+          Clean card-based UI with hover animation using
+          transform and box-shadow.
+        </p>
+      </div>
+
+      <div class="design-card">
+        <i class="fa-solid fa-palette"></i>
+        <h3>Color Theme</h3>
+        <p>
+          Dark theme with accent colors for better
+          visual contrast and focus.
+        </p>
+      </div>
+
+      <div class="design-card">
+        <i class="fa-solid fa-mobile-screen"></i>
+        <h3>Responsive Design</h3>
+        <p>
+          Grid-based layout that adapts smoothly
+          across mobile and desktop screens.
+        </p>
+      </div>
+
+      <div class="design-card">
+        <i class="fa-solid fa-wand-magic-sparkles"></i>
+        <h3>Hover Effects</h3>
+        <p>
+          Smooth hover transitions using
+          translate, scale and shadow effects.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    © 2025 MyApp. All rights reserved.
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #121212;
+      color: white;
+    }
+
+    header {
+      background: #1e1e1e;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: #bbb;
+      margin-bottom: 40px;
+    }
+
+    .contact-box {
+      background: #1e1e1e;
+      padding: 30px;
+      border-radius: 12px;
+    }
+
+    .contact-box input,
+    .contact-box textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 8px;
+      outline: none;
+    }
+
+    .contact-box button {
+      width: 100%;
+      padding: 12px;
+      background: orange;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .contact-box button:hover {
+      background: darkorange;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #1e1e1e;
+      margin-top: 50px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h2>MyApp</h2>
+    <nav>
+      <a href="website.html">Home</a>
+      <a href="About.html">About</a>
+      <a href="service.html">Services</a>
+    </nav>
+  </header>
+
+  <!-- Contact Section -->
+  <div class="container">
+    <h1>Contact Us</h1>
+    <p class="subtitle">
+      Feel free to reach out to us anytime.
+    </p>
+
+    <div class="contact-box">
+      <input type="text" placeholder="Your Name">
+      <input type="email" placeholder="Your Email">
+      <textarea rows="4" placeholder="Your Message"></textarea>
+      <button>Send Message</button>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 MyApp. All rights reserved.
+  </footer>
+
+</body>
+</html>

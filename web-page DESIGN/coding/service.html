@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Our Services</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #121212;
+      color: white;
+    }
+
+    header {
+      background: #1e1e1e;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: #bbb;
+      margin-bottom: 40px;
+    }
+
+    .services {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .service-card {
+      flex: 1;
+      min-width: 250px;
+      background: #1e1e1e;
+      padding: 25px;
+      border-radius: 12px;
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .service-card:hover {
+      transform: translateX(-50px);
+      box-shadow: 0px 0 10px rgba(255,165,0,0.3);
+    }
+
+    .service-card i {
+      font-size: 32px;
+      color: orange;
+      margin-bottom: 15px;
+    }
+
+    .service-card p {
+      color: #ccc;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #1e1e1e;
+      margin-top: 50px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h2>MyApp</h2>
+    <nav>
+      <a href="website.html">Home</a>
+      <a href="About.html">About</a>
+      <a href="service.html">Services</a>
+    </nav>
+  </header>
+
+  <!-- Services Section -->
+  <div class="container">
+    <h1>Our Services</h1>
+    <p class="subtitle">
+      We provide high-quality front-end solutions and UI designs.
+    </p>
+
+    <div class="services">
+
+      <div class="service-card">
+        <i class="fa-solid fa-laptop-code"></i>
+        <h3>Web Development</h3>
+        <p>
+          Building responsive and interactive websites using
+          HTML, CSS and JavaScript.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <i class="fa-solid fa-palette"></i>
+        <h3>UI / UX Design</h3>
+        <p>
+          Creating clean, modern and user-friendly interfaces
+          with best design practices.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <i class="fa-solid fa-mobile-screen"></i>
+        <h3>Responsive Design</h3>
+        <p>
+          Ensuring websites work perfectly on mobile, tablet
+          and desktop devices.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <i class="fa-solid fa-gear"></i>
+        <h3>Front-End Optimization</h3>
+        <p>
+          Improving performance, layout and user experience
+          for better results.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    © 2025 MyApp. All rights reserved.
+  </footer>
+
+</body>
+</html>

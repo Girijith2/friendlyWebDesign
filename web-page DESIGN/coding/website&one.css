@@ -1,0 +1,191 @@
+.container{
+ 
+   background-image:url(../image/background.jpg);
+   background-size: cover;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.head{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: orange;
+    display: inline-block;
+}
+
+ul{
+    text-align: center;
+    margin-right: 200px;
+    margin-top: -45px;
+}
+ul li{
+    display: inline;
+    margin-right: 50px;
+    font-size: 25px;
+    color: white;
+
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+#search-bar{
+  position:absolute;
+  right:200px;
+  top: 40px;
+  background-color: transparent;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  border:solid 3px orange;
+}
+
+#search-bar::placeholder{
+    color: white;
+}
+
+.search-button{
+    background-color: orange;
+    color: white;
+    position: absolute;
+    right: 150px;
+    top: 40px;
+    padding-top: 5px;
+    padding-right: 8px;
+    padding-bottom: 7.5px;
+    padding-left: 8px;
+    border: none;
+    
+}
+
+.first-h1{
+    color: white;
+    margin-left: 50px;
+    margin-top: 150px;
+    font-size: 40px;
+}
+
+.second-h1{
+    color: orange;
+    margin-left: 50px;
+    font-size: 40px;
+    margin-top: -30px;
+}
+
+.third-h1{
+    color: white;
+    margin-left: 50px;
+    font-size: 40px;
+    margin-top: -30px;
+}
+
+p{
+    color: white;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: -10px;
+    text-transform: capitalize;
+}
+
+.join-us{
+    background-color: orange;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+
+.details{
+    background-color: black;
+    position: absolute;
+    right: 150px;
+    top: 150px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    height: 450px;
+    opacity: 0.9;
+}
+
+.details h1{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    color: orange;
+ 
+}
+
+#email,#password{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 2px wheat;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.login{
+    width: 100%;
+    background-color: rgb(255, 128, 0);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    margin-top: 25px;
+    color: white;
+}
+
+#email::placeholder{
+    color: white;
+    font-size: 15px;
+    word-spacing: 4px;
+}
+
+#password::placeholder{
+    color: white;
+    font-size: 15px;
+    word-spacing: 4px;
+}
+.details p{
+    margin-top: 20px;
+    font-size: 15px;
+    word-spacing: 5px;
+    text-align: center;
+    margin-right: 45px;
+}
+
+#signUp{
+    text-decoration: none;
+    color: white;
+   
+}
+#signUp:hover{
+    color: darkslategrey;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons i {
+  font-size: 28px;
+  color: white;
+  transition: 0.3s;
+}
+
+.social-icons i:hover {
+  color: orange;
+  transform: scale(1.2);
+}
